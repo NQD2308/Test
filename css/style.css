@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    color: rgb(247, 212, 154);
+}
+
+h1,h2,h3,div,p,ul{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(252, 155, 38);
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#header{
+    height: 100px;
+    background-color: orange;
+    width: 960px;
+}
+
+#main_home{
+    background-image: url("../images/home.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    background-color: rgb(241, 182, 71);
+    width: 960px;
+}
+
+#main_bedroom{
+    background-image: url("../images/Bedroom.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    background-color: rgb(241, 182, 71);
+    width: 960px;
+}
+
+#main_livingroom{
+    background-image: url("../images/livingroom.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    background-color: rgb(241, 182, 71);
+    width: 960px;
+}
+
+#main_kitchen{
+    background-image: url("../images/kitchen.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    background-color: rgb(241, 182, 71);
+    width: 960px;
+}
+
+#main_garden{
+    background-image: url("../images/garden.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height: 500px;
+    background-color: rgb(241, 182, 71);
+    width: 960px;
+}
+
+#footer{
+    height: 100px;
+    background-color: orange;
+    width: 960px;
+}
+
+.main_menu{
+    text-align: center;
+    list-style: none;
+    padding: 30px;
+    
+}
+
+.main_menu li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color: rgb(134, 97, 49);
+    font-weight: 700;
+    font-size: 110%;
+    padding: 3px;
+}
+
+.image{
+    background-size: cover;
+    background-position: center;
+    height: 75vh; /* view height */
+    background-attachment: fixed;
+}
